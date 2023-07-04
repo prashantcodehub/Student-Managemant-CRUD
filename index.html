@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>Student MS</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <form class="container"  id="STform"> 
         <!-- action="" method="post" -->
         <div class="row1">
-            
+            <input type="hidden" id="student-id">
             <input type="text" class="BOX" id="name" 
             placeholder="Name">
 
@@ -32,7 +33,7 @@
         <!-- ADD or EDIT button -->
         <div class="row3">
 
-            <input type="submit" value="" placeholder="Add Student" id="addSt" class="addStudent">
+            <button type="submit" id="addSt" class="addStudent">Add Student</button>
 
         </div>
 

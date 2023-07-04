@@ -118,4 +118,14 @@ td
     border-top: 0px;
     border-bottom: 0px;
 }
+.INtbodyTD
+{
+    text-align: left;
+    padding-left: 10px;
+}
 
+.edit-button,.delete-button
+{
+    float: right;
+    color: #111111;
+}
